@@ -1,0 +1,46 @@
+body{
+    padding:0px;
+
+    margin:0px;
+}
+
+ul{
+    display:flex;
+    position: relative;
+    list-style:none;
+    justify-content: space-evenly;
+    width:40%;
+    left:25%;
+    top:-700px;
+    color: white;
+    border-bottom:2px solid white;
+
+}
+nav{
+     border:1px solid green;
+     height:110vh;
+}
+
+li{
+    position: relative;
+    bottom:15px;
+    left:-50px;
+    color:white
+}
+.logo1{
+    position: relative;
+    left:70%;
+    bottom:780px;
+}
+.bot-nav{
+    left:55%;
+    list-style:none;
+    bottom:700px; 
+}
+.bmw1{
+    position: relative;
+    top:-20px;
+    height:720px;
+    animation:bmw1 1s infinite;
+}
+.bmw1:hover
