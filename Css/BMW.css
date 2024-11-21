@@ -11,7 +11,7 @@ ul{
     justify-content: space-evenly;
     width:40%;
     left:25%;
-    top:-700px;
+    top:-630px;
     color: white;
     border-bottom:2px solid white;
 
@@ -19,6 +19,7 @@ ul{
 nav{
      border:1px solid green;
      height:110vh;
+     position: relative;
 }
 
 li{
@@ -30,17 +31,80 @@ li{
 .logo1{
     position: relative;
     left:70%;
-    bottom:780px;
+    bottom:700px;
 }
 .bot-nav{
     left:55%;
     list-style:none;
-    bottom:700px; 
+    bottom:630px; 
 }
 .bmw1{
     position: relative;
-    top:-20px;
-    height:720px;
-    animation:bmw1 1s infinite;
+    top:-5px;
+
+
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    
 }
-.bmw1:hover
+.bmw1:hover{
+    animation-name:bmw;
+}
+
+@keyframes bmw{100%{transform:scale(1.08);}
+0%{transform:scale3d(1)}
+0%{opacity:.8;    
+}
+100%{opacity:2;}
+
+
+}
+ 
+
+
+h4,h1{
+    position: relative;
+    top:-600px;
+    left:250px;
+}
+h1{
+    font-size:3.5rem;
+    left:120px;
+    top:-700px;
+    word-spacing:rem;
+}
+h4{
+    font-size:2.6rem;
+    font-weight: lighter;
+    left:120px;
+    top:-700px;
+}
+.read{
+position:relative;
+top:-650px;
+left:100px;
+width:150px;
+height:50px;
+background-color:transparent;
+}
+.read:hover{
+    background-color:grey;
+    color:white;
+
+}
+.search1{
+    position: relative;
+    width:550px;
+    height:40px;
+    left:-250px;
+    display:none;
+}
+.search{
+    background-color:transparent;
+    position: relative;
+    left:35px;
+    width:auto;
+    height:auto;
+}
+
