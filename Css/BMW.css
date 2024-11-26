@@ -1,191 +1,259 @@
-body{
-    padding:0px;
+body {
+    padding: 0px;
 
-    margin:0px;
+    margin: 0px;
 }
 
-ul{
-    display:flex;
-    position:relative;
-    list-style:none;
+ul {
+    display: flex;
+    position: relative;
+    list-style: none;
     justify-content: space-evenly;
-    width:50%;
-    left:25%;
-    top:-630px;
+    width: 55%;
+    left: 25%;
+    top: -630px;
     color: white;
-    border-bottom:2px solid white;
-    font-size:1.3rem;
-    font-weight:500;
-    line-height:2rem;
-    word-spacing:1.1rem;
-   
+    border-bottom: 2px solid white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+    word-spacing: 1.1rem;
+
 
 }
-nav{
-   
-     height:110vh;
-     position: relative;
-}
 
-li{
+nav {
+
+    height: 110vh;
     position: relative;
-    bottom:15px;
-    left:-50px;
-    color:white
 }
-.logo1{
-    position: relative;
-    left:80%;
-    bottom:700px;
-}
-.bot-nav{
-    left:62%;
-    list-style:none;
-    bottom:630px; 
-    font-size:1.3rem;
-}
-.bmw1{
-    position: relative;
-    top:-5px;
 
+li {
+    position: relative;
+    bottom: 15px;
+    left: -50px;
+    color: white
+}
 
-    animation-duration:4s;
+.logo1 {
+    position: relative;
+    left: 80%;
+    bottom: 700px;
+}
+
+.bot-nav {
+    left: 62%;
+    list-style: none;
+    bottom: 630px;
+    font-size: 1.3rem;
+}
+
+.bmw1 {
+    position: relative;
+    top: -5px;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-direction:alternate;
-    
-}
-.bmw1:hover{
-    animation-name:bmw;
-    
-}
-
-@keyframes bmw{100%{transform:scaleY(1.08);}
-0%{transform:scaleY(1)}
-0%{opacity:.8;    
-}
-100%{opacity:2;}
-
-
+    animation-direction: alternate;
 
 }
- 
+
+.bmw1:hover {
+    animation-name: bmw;
+
+}
+
+@keyframes bmw {
+    100% {
+        transform: scaleY(1.08);
+    }
+
+    0% {
+        transform: scaleY(1)
+    }
+
+    0% {
+        opacity: .8;
+    }
+
+    100% {
+        opacity: 2;
+    }
 
 
-h4,h1{
+
+}
+
+
+
+h4,
+h1 {
     position: relative;
-    top:-600px;
-    left:250px;
+   
 }
-h1{
-    font-size:3.5rem;
-    left:120px;
-    top:-700px;
-    word-spacing:rem;
+
+h1 {
+    font-size: 3.5rem;
+    left: 120px;
+    top: -500px;
+    word-spacing: rem;
 }
-h4{
-    font-size:2.6rem;
+
+h4 {
+    font-size: 2.6rem;
     font-weight: lighter;
-    left:120px;
-    top:-700px;
+    left: 120px;
+    top: -350px;
 }
-.read{
-position:relative;
-top:-650px;
-left:100px;
-width:150px;
-height:50px;
-background-color:transparent;
+
+.read {
+    position: relative;
+    top: -430px;
+    left: 120px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
 }
-.read:hover{
-    background-color:grey;
-    color:white;
+
+.read:hover {
+
+    color: white;
+    box-shadow: 2px 5px 5px black;
 
 }
-.search1{
+
+.search1 {
     position: relative;
-    width:550px;
-    height:40px;
-    left:-250px;
-    display:none;
+    width: 550px;
+    height: 40px;
+    left: -250px;
+    display: none;
 }
-.search{
-    background-color:transparent;
+
+.search {
+    background-color: transparent;
     position: relative;
-    left:35px;
-    width:auto;
-    height:auto;
+    left: 35px;
+    width: auto;
+    height: auto;
 }
-section{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:550px;
-  
-    
-    border:2px solid black;
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+
+
+
     position: relative;
-    top:-61px;
-    border: 5PX solid black;
-    
-  
+    top: -61px;
+
+
+
 
 }
-.flot1{
-    position:relative;
-    height:550px;
-    width:670px;
-    animation-name:flot1;   
-}
-.flot1-content{
+
+.flot1 {
     position: relative;
-    font-size:3rem;
+    height: 550px;
+    width: 670px;
+    animation-name: flot1;
+}
+
+.flot1-content {
+    position: relative;
+    font-size: 3rem;
     font-weight: 400;
-    top:-170px;
-    left:70px;
+    top: -170px;
+    left: 70px;
 }
-.flot1-button{
-    position:relative;
-    background-color:transparent;
-    width:100px;
-    height:50px;
-    top:-120px;
-    left:-150px;
-}
-.flot2{
-    position:relative;
-    height:550px;
-    width:670px;  
-}
-.flot2-content{
+
+.flot1-button {
     position: relative;
-    font-size:2.5rem;
-    top:-150px;
-    left:65px;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    top: -120px;
+    left: -150px;
+}
+
+.flot2 {
+    position: relative;
+    height: 550px;
+    width: 670px;
+}
+
+.flot2-content {
+    position: relative;
+    font-size: 2.5rem;
+    top: -150px;
+    left: 65px;
     transform: rotate(20deg);
-    color:white;
+    color: white;
 }
-.flot2:hover{
-    animation-name:flot2;
-    animation-duration:60s;
-    animation-iteration-count:infinite;
+
+.flot2:hover {
+    animation-name: flot2;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
 }
+
 @keyframes flot2 {
-    0%{transform: rotateY(180deg);}
+    0% {
+        transform: rotateY(180deg);
+    }
 }
-    
 
-.flot1:hover{
-    animation:flot1;
-    animation-duration:5s;
-    animation-iteration-count:infinite;
 
-     
+.flot1:hover {
+    animation: flot1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
 }
-@keyframes flot1{0%{transform: scaleZ(1);}
-100%{transform:scaleX(1.06);}
-0%{opacity:1;}
-50%{opacity:.8;}}
 
-    
+@keyframes flot1 {
+    0% {
+        transform: scaleZ(1);
+    }
 
+    100% {
+        transform: scaleX(1.06);
+    }
 
+    0% {
+        opacity: 1;
+    }
 
+    50% {
+        opacity: .8;
+    }
+}
+
+.artical-1{
+    float: right;
+    position:relative;
+    bottom:125px;
+    right:100px;
+}
+.ar-head{
+    position: relative;
+    top:20px;
+    font-size:1.8rem;
+}
+.here{
+    position: relative;
+    left:22%;
+    font-size:1.7rem;
+}
+.ar-link{
+    text-decoration: none;
+    color:black;
+    position: relative;
+    left:30%;
+    top:35px;
+    font-size:1.6rem;
+    font-weight: 500;
+    text-shadow:1px 3px 3px rgb(31, 29, 29);
+
+}
